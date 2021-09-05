@@ -1,0 +1,49 @@
+ER MODEL OVERVIEW
+ ER model describes data in terms of:
+• Entities and entity sets
+• Objects
+• Relationships and relationship sets
+• Connections between objects
+• Attributes
+• Properties that characterize or describe entities or relationships
+
+CATEGORIES OF ATTRIBUTES
+ Simple (atomic) vs. composite attributes
+ Single-valued vs. multivalued attributes
+ Stored vs. derived attributes
+ Key or unique attributes
+• Attribute values constrained to be distinct for individual entities in
+entity set
+
+
+RELATIONSHIPS
+ Relationship
+• Interaction between entities
+• Indicator: an attribute of one entity refers to another entity
+• Represent such references as relationships not attributes
+ Relationship type R among n entity types E1
+, E2
+, ..., En
+• Defines a set of associations among entities from these entity types
+ Relationship instance ri
+• Each ri associates n individual entities (e1
+, e2
+, ..., en
+)
+• Each entity ej
+in ri
+is a member of entity set Ej
+• Relationships uniquely identified by keys of participating entities
+ Degree of a relationship type
+• Number of participating entity types
+• e.g., binary, ternary
+
+RELATIONSHIPS WITH
+REPEATED ENTITY SETS
+ Some relationships involve multiple entities from the same entity set
+• e.g., spouse (two persons), games (two teams)
+• e.g., recursive relationships, such as supervises (two employees)
+ Role name
+• Signifies role that participating entity plays in relationship instance
+• Required when entity type participates multiple times in a
+relationship
